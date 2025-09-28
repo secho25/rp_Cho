@@ -1,11 +1,12 @@
 /* Navbar */
 .nb-background-color{       /* navbar background color */
-    background-color: #023E8A;
+    background-color: #212628ff;
 }
 .nbMenuItem{                /* navbar link text properties */
-    font-size:25px;
+    font-size:22px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Instrument Sans;
 }
 
 /* Authors */
@@ -14,10 +15,11 @@
     margin: auto;
 }
 .about-team{
-    color:rgb(82, 81, 81)
+    font-family: Lora;
+    color: #1d2021ff;
 }
 .authors{
-    background-color: #dbe3e7;
+    background-color:  #f7f7f7ff;
 }
 
 
@@ -29,7 +31,9 @@
 
 /* Footer */
 .footer{
-    background-color: #023E8A;
+    background-color: #212628ff;
+    font-family: Instrument Sans;
+    font-weight: 200;
 }
 
 
@@ -39,11 +43,22 @@
 }
 
 
+.pageSubheading {
+    font-family: Instrument Sans;
+    font-size: 28px;
+    color: #f7f7f7ff;
+}
 
-
+.procedureHeading {
+    font-family: Lora;
+    color:#1d2021ff;
+}
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #f7f7f7ff;
+    font-family: Instrument Sans;
+    font-size: 20px;
+    color: #1d2021ff;
 }
 
 .ovPadLeft{
@@ -55,12 +70,37 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #f7f7f7ff;
     padding: 1px;
 }
 
+.procedureText {
+    font-family: Instrument Sans;
+    font-size: 28px;
+    color: #1d2021ff;
+}
+
+.howTo {
+    font-family: Instrument Sans;
+    font-size: 25px;
+    color: #1d2021ff;
+}
+
+th {
+    background-color: #e5e6e7ff !important;
+    font-family: Instrument Sans;
+    font-size: 25px;
+    color: #1d2021ff;
+}
+
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: rgb(43, 46, 49);
+    font-family: Lora;
+}
+
+.sectionTitle {
+    font-family: Lora;
+    font-size: 34px;
 }
 
 /* ----------------- ID CSS ----------------- */

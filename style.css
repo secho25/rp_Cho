@@ -9,90 +9,7 @@
     font-family: Instrument Sans;
 }
 
-/* Authors */
-.about{
-    width:400px;
-    margin: auto;
-}
-.about-team{
-    font-family: Lora;
-    color: #1d2021ff;
-}
-.authors{
-    background-color:  #f7f7f7ff;
-}
-
-
-/* General */
-.body{
-    background-color: rgb(90, 92, 92);
-}
-
-
-/* Footer */
-.footer{
-    background-color: #212628ff;
-    font-family: Instrument Sans;
-    font-weight: 200;
-}
-
-
-
-.icon-white{            /* Arrow icon at bottom of page */
-    color: #FFFFFF;
-}
-
-
-.pageSubheading {
-    font-family: Instrument Sans;
-    font-size: 28px;
-    color: #f7f7f7ff;
-}
-
-.procedureHeading {
-    font-family: Lora;
-    color:#1d2021ff;
-}
-
-.overview{
-    background-color: #f7f7f7ff;
-    font-family: Instrument Sans;
-    font-size: 20px;
-    color: #1d2021ff;
-}
-
-.ovPadLeft{
-    padding-left: 20px;
-}
-
-.ovPadRight{  
-    padding-right: 20px;
-}
-
-.procedure{
-    background-color: #f7f7f7ff;
-    padding: 1px;
-}
-
-.procedureText {
-    font-family: Instrument Sans;
-    font-size: 28px;
-    color: #1d2021ff;
-}
-
-.howTo {
-    font-family: Instrument Sans;
-    font-size: 25px;
-    color: #1d2021ff;
-}
-
-th {
-    background-color: #e5e6e7ff !important;
-    font-family: Instrument Sans;
-    font-size: 25px;
-    color: #1d2021ff;
-}
-
+/* Overview */
 .showcase{
     background-color: rgb(43, 46, 49);
     font-family: Lora;
@@ -103,9 +20,100 @@ th {
     font-size: 34px;
 }
 
-/* ----------------- ID CSS ----------------- */
+/* Authors */
+.about{
+    max-width:400px;
+    margin: auto;
+}
+.about-team{
+    font-family: Lora;
+    color: #1d2021ff;
+}
+.authors{
+    background-color:  #f7f7f7ff;
+}
+.card-title{
+    font-family: Lora;
+    color: #1d2021ff;
+}
+.card-category{
+    font-family: Instrument Sans;
+    color: #1d2021ff;
+    font-size: 18px;
+}
+.card-text{
+    font-family: Instrument Sans;
+    color: #1d2021ff;
+    font-size: 16px;
+}
 
-/* -----------------Underline Animation CSS -----------------*/
+/* Procedure */
+.procedure{
+    background-color: #f7f7f7ff;
+    padding: 1px;
+}
+.procedureText {
+    font-family: Instrument Sans;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1d2021ff;
+}
+.howToTitle{
+    font-family: Instrument Sans;
+    font-size: 20px;
+    color: #1d2021ff;
+    font-weight: 600;
+}
+.howTo {
+    font-family: Instrument Sans;
+    font-size: 18px;
+    color: #1d2021ff;
+    font-weight: 400;
+}
+th {
+    background-color: #e5e6e7ff !important;
+    font-family: Instrument Sans;
+    font-size: 25px;
+    color: #1d2021ff;
+}
+
+/* General */
+.body{
+    background-color: rgb(90, 92, 92);
+}
+.icon-white{            /* Arrow icon at bottom of page */
+    color: #FFFFFF;
+}
+.pageSubheading {
+    font-family: Instrument Sans;
+    font-size: 28px;
+    color: #f7f7f7ff;
+}
+.procedureHeading {
+    font-family: Lora;
+    color:#1d2021ff;
+}
+.overview{
+    background-color: #f7f7f7ff;
+    font-family: Instrument Sans;
+    font-size: 20px;
+    color: #1d2021ff;
+}
+.ovPadLeft{
+    padding-left: 20px;
+}
+.ovPadRight{  
+    padding-right: 20px;
+}
+
+/* Footer */
+.footer{
+    background-color: #212628ff;
+    font-family: Instrument Sans;
+    font-weight: 200;
+}
+
+/* Underline Animation */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
